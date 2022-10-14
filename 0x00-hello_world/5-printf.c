@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- *  * print_hello - Prints "use printf to out given text"
+ * main - program execution starts here
+ *task 5 using printf
+ * Return: Return zero for program success
   */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
-
-/**
- *     * Return: 1 if the number is positive. 0 otherwise
- */
-		return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }

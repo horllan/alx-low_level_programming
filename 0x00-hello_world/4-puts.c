@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- *main - puts "Programming is like building a multilingual puzzle"
- */
+ * main - program execution starts here
+ *task 4 using puts
+ * Return: Return zero for program success
+  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-/**
-* Return : Statement "Always return zero"
- */
-return (0);
-
+	printf("with proper grammar , but the art is a piece of art,\n");
+	return (0);
 }
