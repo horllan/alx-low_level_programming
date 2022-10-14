@@ -1,12 +1,9 @@
-/*task prints the size of the data type based on th
- *  * main - program execution starts here
- *   *task prints the size of the data type based on th
- *   e machine
- *    * Return: Return zero for program success
- *      *
- *      *{
- *      	*/
-
+#include <stdio.h>
+/**
+* main - program starting point
+* prints sizeof datatypes
+* Return: always return 0 for (success)
+*/
 int main(void)
 {
 		printf("Size of a char: %d byte(s)\n", sizeof(char));
