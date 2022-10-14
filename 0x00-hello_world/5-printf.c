@@ -9,5 +9,5 @@ int main(void)
 /**
  *     * Return: 1 if the number is positive. 0 otherwise
  */
-		return (nb > 0);
+		return (0);
 }
