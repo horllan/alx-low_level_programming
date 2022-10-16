@@ -1,0 +1,11 @@
+#include <stdio.h>
+/**
+ * main - program execution starts here
+ * print to stderr
+ * Return: Return zero for program success otherwise not zero
+  */
+int main(void)
+{
+  char quote = "and that piece of art is useful" - Dora Korpar, 2015-10-19";
+	return(1);
+}
