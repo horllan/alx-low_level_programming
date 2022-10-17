@@ -1,7 +1,5 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 /**
@@ -10,17 +8,13 @@
  * Return: always 0 for program success
  */
 int main(void)
-
 {
-
-	int start; 
-
-	for (start = 97; start <= 122; start++)
-	{
-		putchar(start);
-	}
-	putchar('\n');
-
-	return (0);
+int start;
+for (start = 97; start <= 122; start++)
+{
+putchar(start);
+}
+putchar('\n');
+return (0);
 
 }
