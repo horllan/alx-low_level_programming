@@ -3,7 +3,7 @@
 
 /**
  * main - program start execution here
- prints numbers in base 10
+ * prints numbers in base 10
  * Return: always 0 for program success
  */
 int main(void)
