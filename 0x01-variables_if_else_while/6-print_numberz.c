@@ -3,15 +3,15 @@
 
 /**
  * main - program start execution here
- * prints small alphabets
+ prints numbers in bas 10`
  * Return: always 0 for program success
  */
 int main(void)
 {
 int start;
-for (start = 122; start <= 97; start--)
+for (start = 0; start <= 9; start++)
 {
-putchar(start);
+putchar(start + '0');
 }
 putchar('\n');
 return (0);
