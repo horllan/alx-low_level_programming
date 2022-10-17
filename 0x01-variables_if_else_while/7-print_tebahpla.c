@@ -12,7 +12,7 @@ int main(void)
 
 	int start; 
 
-	for (start = 122; start <= 97; start--)
+	for (start = '122'; start <= '97'; start--)
 	{
 		putchar(start);
 	}

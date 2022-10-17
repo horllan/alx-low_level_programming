@@ -15,11 +15,11 @@ int main(void)
 
 	int small, cap;
 	
-	for (small = 0 ; small <= 9 ; small++)
+	for (small=	'0' ; small <=' 9' ; small++)
 	{
 		putchar(small);
 	}
-	for (cap = 97; cap <= 102; cap++)
+	for (cap = '97'; cap <= '102'; cap++)
 	{
 		putchar(cap);
 	}
