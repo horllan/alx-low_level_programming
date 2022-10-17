@@ -14,15 +14,16 @@ int main(void)
 {
 
 	int small, cap;
-	for(small = 97 ; small <= 122 ; small++)
+	
+	for (small = 97 ; small <= 122 ; small++)
 	{
-		putchar(small);
+		putchar (small);
 	}
-	for(cap = 65; cap < 91; cap++)
+	for (cap = 65; cap < 91; cap++)
 	{
-		putchar(cap);
+		putchar (cap);
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 
 }
