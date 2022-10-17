@@ -1,8 +1,5 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - program start execution here
@@ -12,13 +9,13 @@
 int main(void)
 
 {
+int i;
 
-	for (int i = 0; i <= 9; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-
-	return (0);
+for (i = 0; i <= 9; i++)
+{
+putchar(i);
+}
+putchar('\n');
+return (0);
 
 }
