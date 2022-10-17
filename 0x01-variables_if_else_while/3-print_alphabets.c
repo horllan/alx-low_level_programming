@@ -13,16 +13,17 @@ int main(void)
 
 {
 
-int small, cap;
-for(small = 97 ; small <= 122 ; start++)
-{
-	putchar(start);
-}
-putchar('\n');
-for(start = 65; start >= 91; start++)
-{putchar(cap);
-}
-putchar('\n');
-return (0);
+	int small, cap;
+	for(small = 97 ; small <= 122 ; small++)
+	{
+		putchar(small);
+	}
+	putchar('\n'); 
+	for(cap = 65; cap < 91; cap++)
+	{
+		putchar(cap);
+	}
+	putchar('\n');
+	return (0);
 
 }

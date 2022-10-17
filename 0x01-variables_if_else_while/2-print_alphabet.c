@@ -6,16 +6,15 @@
 
 /**
  * main - program start execution here
- * This program detects the last digit of generated number
+ * prints small alphabets
  * Return: always 0 for program success
  */
 int main(void)
 
 {
 
-int start = 97;
-int end = 122;
-for(start ; start <= end ; start++)
+int start; 
+for(start = 97; start <= 122; start++)
 {
 	putchar(start);
 }
