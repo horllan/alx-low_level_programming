@@ -1,19 +1,17 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - program start execution here
- * prints numbers from 0 to 9
+ * prints small alphabets
  * Return: always 0 for program success
  */
 int main(void)
-
 {
-int i;
-
-for (i = 0; i <= 9; i++)
+int start;
+for (start = 122; start <= 97; start--)
 {
-putchar(i);
+putchar(start);
 }
 putchar('\n');
 return (0);
