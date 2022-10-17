@@ -9,18 +9,14 @@
  * prints small alphabets
  * Return: always 0 for program success
  */
-int main (void)
+int main(void)
 
 {
 
 	int start; 
 
-	for (start = 97; start <= 122; start++)
+	for (start = 122; start <= 97; start--)
 	{
-		if ( start == 101 || start == 113)
-		{
-			continue;
-		}
 		putchar(start);
 	}
 	putchar('\n');

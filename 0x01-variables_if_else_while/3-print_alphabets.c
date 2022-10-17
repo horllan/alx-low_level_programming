@@ -6,7 +6,7 @@
 
 /**
  * main - program start execution here
- * This program detects the last digit of generated number
+ * This program that prints alphabets in small and capital letter
  * Return: always 0 for program success
  */
 int main(void)
@@ -17,13 +17,13 @@ int main(void)
 	
 	for (small = 97 ; small <= 122 ; small++)
 	{
-		putchar (small);
+		putchar(small);
 	}
 	for (cap = 65; cap < 91; cap++)
 	{
-		putchar (cap);
+		putchar(cap);
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 
 }

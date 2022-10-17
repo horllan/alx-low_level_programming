@@ -6,21 +6,24 @@
 
 /**
  * main - program start execution here
- * prints small alphabets
+ * This program that prints hexadecimal number
  * Return: always 0 for program success
  */
 int main(void)
 
 {
 
-	int start; 
-
-	for (start = 97; start <= 122; start++)
+	int small, cap;
+	
+	for (small = 0 ; small <= 9 ; small++)
 	{
-		putchar(start);
+		putchar(small);
+	}
+	for (cap = 97; cap <= 102; cap++)
+	{
+		putchar(cap);
 	}
 	putchar('\n');
-
 	return (0);
 
 }

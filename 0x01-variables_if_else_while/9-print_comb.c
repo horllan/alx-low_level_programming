@@ -6,22 +6,18 @@
 
 /**
  * main - program start execution here
- * prints small alphabets
+ * prints numbers from 0 to 9
  * Return: always 0 for program success
  */
-int main (void)
+int main(void)
 
 {
 
-	int start; 
-
-	for (start = 97; start <= 122; start++)
+	for (int i = 0; i <= 9; i++)
 	{
-		if ( start == 101 || start == 113)
-		{
-			continue;
-		}
-		putchar(start);
+		putchar(i);
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 
