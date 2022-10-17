@@ -1,7 +1,4 @@
 #include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
 
 /**
@@ -13,17 +10,18 @@ int main(void)
 
 {
 
-	int small, cap;
-	
-	for (small=	'0' ; small <=' 9' ; small++)
-	{
-		putchar(small);
-	}
-	for (cap = '97'; cap <= '102'; cap++)
-	{
-		putchar(cap);
-	}
-	putchar('\n');
-	return (0);
+char hex;
+int num;
+
+for (num = 0; num <=  9; num++)
+{
+putchar(num + '0');
+}
+for (hex = 97; hex <= 102; hex++)
+{
+putchar(hex);
+}
+putchar('\n');
+return (0);
 
 }
