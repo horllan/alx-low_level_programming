@@ -18,7 +18,6 @@ int main(void)
 	{
 		putchar(small);
 	}
-	putchar('\n'); 
 	for(cap = 65; cap < 91; cap++)
 	{
 		putchar(cap);
