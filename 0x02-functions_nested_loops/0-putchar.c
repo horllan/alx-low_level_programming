@@ -1,16 +1,5 @@
 #include <stdio.h>
-
-/**
- *  output - Prints _putchar
- * Description - prints putchar
- *   Return: void
- */
-int output(void)
-{
-printf("_putchar\n");
-return (0);
-}
-
+#include "main.h"
 /**
  * main - entry point
  * Description: Starting point
@@ -19,7 +8,7 @@ return (0);
 
 int main(void)
 {
-output();
+_putchar();
 
 return (0);
 }
