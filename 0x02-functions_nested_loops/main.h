@@ -1,6 +1,6 @@
-
 #ifndef _MAIN_H
 #define _MAIN_H
+#include <stdio.h>
 /**
  *  _putchar - Prints _putchar
  * Description - prints putchar
