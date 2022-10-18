@@ -1,6 +1,5 @@
 #ifndef main
 #define main
-#include <stdio.h>
 /**
  *  _putchar - Prints _putchar
  * Description - prints putchar
