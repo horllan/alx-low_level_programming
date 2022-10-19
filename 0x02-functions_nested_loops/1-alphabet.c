@@ -5,10 +5,10 @@
  * Return: 0 always
  */
 
-int main(void)
+int print_alphabet(void)
 {
 char c = 'l';
-print_alphabet(c);
+alphabets(c);
 _putchar('\n');
 return (0);
 }

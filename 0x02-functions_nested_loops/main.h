@@ -1,6 +1,6 @@
 int _putchar(char c);
 
-int print_alphabet(char c);
+void print_alphabet(void);
 
 void print_alphabet_cx10(void);
 
@@ -21,3 +21,5 @@ void times_table(void);
 int add(int , int);
 
 void print_to_98(int);
+
+int alphabets(char c);

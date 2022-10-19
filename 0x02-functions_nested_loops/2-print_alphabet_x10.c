@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,13 +5,13 @@
  * Return: 0 always
  */
 
-int main(void)
+int print_alphabet_x10(void)
 {
 int i;
-
+char c = 'l';
 for (i = 0; i <= 10; i++)
 {
-print_alphabet('l');
+alphabets(c);
 _putchar('\n');
 }
 return (0);
