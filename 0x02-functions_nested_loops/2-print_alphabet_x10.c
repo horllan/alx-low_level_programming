@@ -10,7 +10,7 @@ int i;
 char c = 'l';
 for (i = 0; i <= 10; i++)
 {
-alphabets(c);
+print_alphabet();
 _putchar('\n');
 }
 }
