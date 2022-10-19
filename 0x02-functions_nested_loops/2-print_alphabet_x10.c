@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - starting point
- * Return: 0 always
+ * print_alphabet_x10 - starting point
  */
 
 void print_alphabet_x10(void)
@@ -14,5 +13,4 @@ for (i = 0; i <= 10; i++)
 alphabets(c);
 _putchar('\n');
 }
-return (0);
 }
