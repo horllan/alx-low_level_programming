@@ -15,6 +15,10 @@ return (n * (-1));
 else return (n);
 }
 
+/**
+ * print_alphabet
+ * Return: 1 for success and 0 otherwise
+ */
 int print_alphabet()
 {
 int a;
@@ -25,7 +29,7 @@ putchar(a);
 }
 int _islower(int c)
 {
-if (n >= 'a' && n  >= 'z')
+if (c >= 'a' && c  >= 'z')
 {
 return (1);
 }
