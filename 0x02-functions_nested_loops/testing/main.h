@@ -23,22 +23,4 @@ for (a = 'a'; a <= 'z'; a++)
 putchar(a);
 }
 }
-int _islower(int c)
-{
-if (n >= 'a' && n  >= 'z')
-{
-return (1);
-}
-else return (0);
-}
-int _isalpha(int c)
-{
-if (c >= 'A' && c <= 'z')
-{
-return (1);
-}
-else
-return (0);
-
-}
 #endif

@@ -4,12 +4,15 @@
 
 /**
  * main - starting point
- * Return: 0 always
+ * Description: checks for alphabet
+ * Return: 1 for true and 0 for false
  */
 
 int main(void)
 {
-print_alphabet();
+int r;
+r = _isalpha(c);
+putchar(r +'0');
 putchar('\n');
 return (0);
 }

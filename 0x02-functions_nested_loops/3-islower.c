@@ -9,7 +9,9 @@
 
 int main(void)
 {
-print_alphabet();
+int r;
+r = _islower(c);
+putchar(r +'0');
 putchar('\n');
 return (0);
 }
