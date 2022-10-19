@@ -10,8 +10,8 @@
 int main(void)
 {
 int r;
-r = _islower(c);
-putchar(r +'0');
+r = _islower('c');
+putchar(r + '0');
 putchar('\n');
 return (0);
 }

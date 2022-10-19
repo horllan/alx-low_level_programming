@@ -21,11 +21,12 @@ else return (n);
  */
 int print_alphabet()
 {
-int a;
+char a;
 for (a = 'a'; a <= 'z'; a++)
 {
 putchar(a);
 }
+return (1);
 }
 int _islower(int c)
 {
@@ -35,14 +36,15 @@ return (1);
 }
 else return (0);
 }
-int _isalpha(int c)
+int _isalpha(char c)
 {
 if (c >= 'A' && c <= 'z')
 {
 return (1);
 }
-else
+else 
+{
 return (0);
-
+}
 }
 #endif

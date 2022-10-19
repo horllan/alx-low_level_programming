@@ -11,7 +11,7 @@
 int main(void)
 {
 int r;
-r = _isalpha(c);
+r = _isalpha('c');
 putchar(r +'0');
 putchar('\n');
 return (0);
