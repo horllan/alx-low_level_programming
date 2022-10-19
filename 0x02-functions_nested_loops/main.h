@@ -19,12 +19,19 @@ else return (n);
  * print_alphabet
  * Return: 1 for success and 0 otherwise
  */
+
+int _putchar(char c)
+{
+write(1, &c, 1);
+return (1);
+}
+
 int print_alphabet()
 {
 char a;
 for (a = 'a'; a <= 'z'; a++)
 {
-putchar(a);
+_putchar(a);
 }
 return (1);
 }
