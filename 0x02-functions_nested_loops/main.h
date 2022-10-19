@@ -1,6 +1,6 @@
 #ifndef main_h
 #define main_h
-
+#include <unistd.h>
 /**
  *_abs - converts to absolute value
  * Return: 1 for success
@@ -22,8 +22,7 @@ else return (n);
 
 int _putchar(char c)
 {
-write(1, &c, 1);
-return (1);
+return (write(1, &c, 1));
 }
 
 int print_alphabet()
