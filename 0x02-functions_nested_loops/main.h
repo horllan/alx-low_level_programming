@@ -1,56 +1,23 @@
-#ifndef main_h
-#define main_h
-#include <unistd.h>
-/**
- *_abs - converts to absolute value
- * Return: 1 for success
- */
+int _putchar(char c);
 
-int abs(int n)
-{
-if (n < 0)
-{
-return (n * (-1));
-}
-else return (n);
-}
+void print_alphabet(void);
 
-/**
- * print_alphabet
- * Return: 1 for success and 0 otherwise
- */
+void print_alphabet_cx10(void);
 
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
+int _islower(int c);
 
-int print_alphabet()
-{
-char a;
-for (a = 'a'; a <= 'z'; a++)
-{
-_putchar(a);
-}
-return (1);
-}
-int _islower(int c)
-{
-if (c >= 'a' && c  >= 'z')
-{
-return (1);
-}
-else return (0);
-}
-int _isalpha(char c)
-{
-if (c >= 'A' && c <= 'z')
-{
-return (1);
-}
-else 
-{
-return (0);
-}
-}
-#endif
+int _isalpha(int c);
+
+int print_sign(int n);
+
+int _abs(int);
+
+int print_last_digit(int);
+
+void jack_bauer(void);
+
+void times_table(void);
+
+int add(int , int);
+
+void print_to_98(int);
