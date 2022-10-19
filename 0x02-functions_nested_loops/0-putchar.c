@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
+/**
+ * main - entry
+ * Return: 0 always
+ */
 int main(void)
 {
 putchar('_');
