@@ -9,7 +9,7 @@
  * Return: 1 if c is alphabet otherwise return 0
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 if (c >= 'A' && c <= 'z')
 {
