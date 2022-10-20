@@ -12,7 +12,7 @@ while (n < 98)
 {
 _putchar(n + '0');
 
-n++
+n++;
 }
 
 while (n > 98)
