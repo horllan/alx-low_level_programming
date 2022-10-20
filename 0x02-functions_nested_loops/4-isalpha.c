@@ -3,16 +3,20 @@
 #include "main.h"
 
 /**
- * main - starting point
- * Description: checks for alphabet
- * Return: 1 for true and 0 for false
+ * _isalpha - starting point
+ * Description: checks if a input is alphabet
+ * @c: value to check
+ * Return: 1 if c is alphabet otherwise return 0
  */
 
-int main(void)
+int _islower(int c)
 {
-int r;
-r = _isalpha('c');
-putchar(r +'0');
-putchar('\n');
+if (c >= 'A' && c <= 'z')
+{
+return (1);
+}
+else
+{
 return (0);
+}
 }
