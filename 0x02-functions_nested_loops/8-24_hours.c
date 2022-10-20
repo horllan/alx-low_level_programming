@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer
+ * jack_bauer - print minutes in a day
  * Description: prints every minute of the day of Jack Bauer
  */
 
