@@ -15,7 +15,7 @@ while (row <= 10)
 column = 0;
 while (column <= 10)	
 {
-if (row = 0)
+if (row == 0)
 {
 _putchar('0');
 _putchar(',');
