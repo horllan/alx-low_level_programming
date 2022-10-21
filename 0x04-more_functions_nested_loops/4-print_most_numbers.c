@@ -1,13 +1,13 @@
-#include "main.h"
+#include "omain.h"
 
 /**
- * print_numbers - print numbers
- * Description: prints all digit from 0 to 9
+ * print_most_numbers - print numbers
+ * Description: prints all digit from 0 to 9 skipping 2 and 4
  */
 
 void print_numbers(void)
 {
-int i = 0;
+int i;
 
 for (i = 0; i <= 9; i++)
 {
