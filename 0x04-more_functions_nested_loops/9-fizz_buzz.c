@@ -8,8 +8,8 @@ int main(void)
 {
 int num = 0;
 while (num++ < 100)
-
-if ((num % 15 == 0)
+{
+if ((num % 15 == 0))
 printf("FizzBuzz ");
 
 else if ((num % 3) == 0)
@@ -25,7 +25,7 @@ printf("Buzz");
 
 else
 printf("%d ", num);
-
+}
 printf("\n");
 return (0);
 }
