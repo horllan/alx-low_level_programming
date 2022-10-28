@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-int num;
+int num = 0;
 while (num++ < 100)
 
 if ((num % 15 == 0)
