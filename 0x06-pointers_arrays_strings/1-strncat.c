@@ -8,7 +8,7 @@
  * Return: returns the dest which is a pointer to char
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 
 int i = 0,  len = 0;
