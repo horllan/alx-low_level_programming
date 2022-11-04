@@ -8,9 +8,10 @@
  * Return: 0 for success
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 int i = 0;
+
 
 while (i < argc)
 {
