@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* main - this program just print the multiplication 
+* main - this program just print the multiplication
 * of the two arhuments passed in
 * @argc: argument count
 * @argv: argument variable array whichvis same size as argc
