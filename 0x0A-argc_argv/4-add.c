@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - this program just print the addition 
+ * main - this program just print the addition
  * of the two arhuments passed in
  * @argc: argument count
  * @argv: argument variable array whichvis same size as argc
@@ -11,12 +11,19 @@
 
 int main(int argc, const char *argv[])
 {
-if (argc >2)
+int i, j, sum = 0;
+
+for (i = 1; i < argc; i++)
 {
-int f = atoi(argv[1]);
-int l = atoi(argv[2]);
-int res = f + l;
-printf("%d\n", res);
+for (j = 0; argv[i][j] != '\0'; j++)
+{
+if (*argv[i] >= 65 && *argv[i] <= 122)
+{
+printf("Error");
+return (1);
 }
-return (0);
+}
+sum += atoi(argv[i]);
+}
+printf("%d", sum);
 }
