@@ -11,17 +11,19 @@
 
 int main(int argc, const char *argv[])
 {
-if (argc > 1)
+if (argc < 3)
 {
-int f = atoi(argv[1]);
-int l = atoi(argv[2]);
-int res = f * l;
-printf("%d\n", res);
-return (0);
-}
-else
-{
-printf("Error");
+printf("Error\n");
 return (1);
 }
+
+int f = atoi(argv[1]);
+
+int l = atoi(argv[2]);
+
+int res = f * l;
+
+printf("%d\n", res);
+
+return (0);
 }

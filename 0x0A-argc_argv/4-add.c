@@ -23,6 +23,11 @@ printf("Error");
 return (1);
 }
 }
+if (argc < 2)
+{
+sum =0;
+return (0);
+}
 sum += atoi(argv[i]);
 }
 printf("%d", sum);
