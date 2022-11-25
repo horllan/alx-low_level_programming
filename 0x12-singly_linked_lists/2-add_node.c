@@ -3,18 +3,17 @@
 #include <stdio.h>
 
 /**
-* add_node - add node to a linked list in the specified position
-* @head: represents the first node
-* @str: tmp
-* Return: return the address of the new element, or NULL if it fails
+* add_node - adds a new node
+* @head: first node address store
+* @str: duplicated
+* Return:  the address of the new element, or NULL if it failed
 */
-
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_node;
-	int n;
+	int c;
 
-	for (n = 0; str[n] != '\n'; n++)
+	for (c = 0; str[c] != '\0'; c++)
 		;
 
 	new_node = malloc(sizeof(list_t));
@@ -22,18 +21,15 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		free(new_node);
 		return (NULL);
-
 	}
 
 	new_node->str = strdup(str);
-
 	if (new_node->str == NULL)
 	{
 		free(new_node);
 		return (NULL);
 	}
-
-	new_node->len = n;
+	new_node->len = c;
 	new_node->next = *head;
 	*head = new_node;
 
